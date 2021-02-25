@@ -3,13 +3,23 @@ import VueRouter from 'vue-router';
 import App from "./App.vue";
 
 import HelloWorld from "./components/HelloWorld.vue";
+import Login from "./components/Login.vue";
+import Board from "./components/Board.vue";
 
 Vue.use(VueRouter);
 const router = new VueRouter({
   routes: [ 
     {
-      path: '/namegator',
-      component: HelloWorld
+      path: '/helloworld',
+      component: HelloWorld,
+    },
+    {
+      path:'/',
+      component: Login,
+    },
+    {
+      path:'/board',
+      component: Board,
     }
   ],
 }
