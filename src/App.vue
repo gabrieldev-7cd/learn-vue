@@ -7,6 +7,7 @@
           Treino de Habilidades Sociais
       </h4>
     </div>
+    <!-- <router-view></router-view> -->
     <div id="main">
       <div class="container">
           <div class="row">
@@ -97,10 +98,10 @@
 <script>
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css"; 
-// import HelloWorld from './components/HelloWorld.vue';
+// import hello-world from './components/HelloWorld.vue';
 
 export default {
-  // components: { HelloWorld },
+  // components: { hello-world },
   name: 'App',
   data: () => {
     return{
