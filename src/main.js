@@ -5,6 +5,7 @@ import App from "./App.vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import Login from "./components/Login.vue";
 import Board from "./components/Board.vue";
+import BlockGame from "./components/BlockGame.vue";
 
 Vue.use(VueRouter);
 const router = new VueRouter({
@@ -20,6 +21,10 @@ const router = new VueRouter({
     {
       path:'/board',
       component: Board,
+    },
+    {
+      path:'/blockgame',
+      component: BlockGame,
     }
   ],
 }
